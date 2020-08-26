@@ -1,0 +1,25 @@
+name: CI
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Checkout ezpmlnt
+        uses: actions/checkout@v2
+        with:
+          repository: hiwane/ezpmlnt
+          path: ezpmlnt
+
+      - name: valid test
+        run: |
+          ls
+          ls ezpmlnt
+          ./ezpmlnt/html5.sh ./ng.html
+
+
+
+
