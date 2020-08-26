@@ -17,8 +17,10 @@ jobs:
       - name: valid test
         run: |
           ls
-          ls ezpmlnt
-          ./ezpmlnt/html5.sh ./ng.html
+          echo ezpmnt
+          ls -l ezpmlnt
+          sh -c "! ./ezpmlnt/html5.sh ./ng.html"
+          ./ezpmlnt/html5.sh ./ok.html
 
 
 
