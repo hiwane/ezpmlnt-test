@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: ezpmlnt
-        uses: hiwane/ezpmlnt
+        uses: hiwane/ezpmlnt@master
 
 
 
