@@ -1,1 +1,1 @@
-<a href="hoge" target=balnk>hoge</a>
+<a href="hoge" target="balnk">hoge</a>
