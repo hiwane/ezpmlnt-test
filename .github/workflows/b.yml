@@ -9,10 +9,7 @@ jobs:
       - name: ezpmlnt
         uses: hiwane/ezpmlnt
         run: |
-          ls
-          echo ezpmnt
-          ls -l ezpmlnt
-          sh -c "! ./ezpmlnt/html5.sh ./ng.html"
+          echo ezpmntaaaaaaaaaaaaaaaaaaaa
           ./ezpmlnt/html5.sh ./ok.html
 
 
