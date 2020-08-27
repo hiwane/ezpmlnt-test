@@ -8,9 +8,6 @@ jobs:
     steps:
       - name: ezpmlnt
         uses: hiwane/ezpmlnt
-        run: |
-          echo ezpmntaaaaaaaaaaaaaaaaaaaa
-          ./ezpmlnt/html5.sh ./ok.html
 
 
 
